@@ -1,0 +1,14 @@
+schedule
+requests
+asyncpg
+PyPDF2
+scikit-learn
+boto3
+assemblyai
+python-dotenv
+google-generativeai
+spacy
+beautifulsoup4
+pika
+python-dotenv
+psycopg2-binary

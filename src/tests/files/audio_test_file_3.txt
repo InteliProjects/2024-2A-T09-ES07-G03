@@ -1,0 +1,5 @@
+Arquivo para teste
+
+Esse arquivo será enviado para a API de speech-to-text
+
+A API deve retornar um código de erro

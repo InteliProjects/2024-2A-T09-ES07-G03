@@ -1,0 +1,58 @@
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%; 
+    overflow-y: hidden;
+}
+
+.card-container {
+    background-color: #fff; 
+    padding: 16px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px;
+    height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.card-container::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background: #012169; 
+    border-radius: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    gap: 10px; 
+    z-index: 10; 
+}
+
+.pagination button {
+    font-weight: 500;
+    border: none; 
+    background: #ffffff00; 
+    border-radius: 5px;
+    color: #012169; 
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #012169;
+    color: white;
+
+}
+
+.pagination button:hover {
+    color: #007bff;
+}  
